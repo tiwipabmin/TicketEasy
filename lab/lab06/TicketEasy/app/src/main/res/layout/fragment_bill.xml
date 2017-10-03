@@ -1,0 +1,245 @@
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="kmitl.temporary.ticketeasy.fragment.BillFragment"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+
+
+    <ImageView
+        android:layout_width="110dp"
+        android:layout_height="150dp"
+        android:src="@drawable/android"
+        android:id="@+id/iv_movie"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_nameMovie"
+        android:text="Kingsman"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="148dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ประเภทโรง"
+        android:id="@+id/textView"
+        tools:layout_editor_absoluteY="58dp"
+        tools:layout_editor_absoluteX="148dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EN/TH"
+        android:id="@+id/textView2"
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="273dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="วันที่"
+        tools:layout_editor_absoluteY="111dp"
+        tools:layout_editor_absoluteX="326dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="เวลา : เวลา"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/circle-256"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="26dp"
+        android:layout_height="27dp"
+        app:srcCompat="@drawable/android"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="THB"
+        android:textColor="#CCCC99"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="248dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total"
+        android:textSize="24sp"
+        android:textColor="#CCCC99"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7,000"
+        android:textSize="24sp"
+        android:textColor="#CCCC99"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A1, A2"
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="137dp" />
+
+
+
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="341dp"
+        android:layout_height="85dp"
+        android:background="#333333"
+        tools:layout_editor_absoluteY="213dp"
+        tools:layout_editor_absoluteX="22dp">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="customer info"
+            android:textColor="#CCCC99"
+            tools:layout_editor_absoluteX="127dp"
+            tools:layout_editor_absoluteY="5dp" />
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="279dp"
+            android:layout_height="21dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="e-mail"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="31dp"
+            tools:layout_editor_absoluteY="32dp" />
+
+        <EditText
+            android:id="@+id/editPhone"
+            android:layout_width="280dp"
+            android:layout_height="18dp"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="phone"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="61dp" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="341dp"
+        android:layout_height="85dp"
+        android:background="#333333"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="308dp">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="promotion code"
+            android:textColor="#CCCC99"
+            tools:layout_editor_absoluteX="127dp"
+            tools:layout_editor_absoluteY="5dp" />
+
+        <EditText
+            android:id="@+id/editCode"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="code"
+            tools:layout_editor_absoluteX="20dp"
+            tools:layout_editor_absoluteY="31dp" />
+
+    </android.support.constraint.ConstraintLayout>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="341dp"
+        android:layout_height="85dp"
+        android:background="#333333"
+        tools:layout_editor_absoluteX="22dp"
+        tools:layout_editor_absoluteY="400dp">
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="payment chanel"
+            android:textColor="#CCCC99"
+            tools:layout_editor_absoluteX="121dp"
+            tools:layout_editor_absoluteY="-2dp" />
+
+        <Button
+            android:id="@+id/btnMCash"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FCCE49"
+            android:text="m cash"
+            tools:layout_editor_absoluteY="16dp"
+            tools:layout_editor_absoluteX="16dp" />
+
+        <Button
+            android:id="@+id/btnCredit"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FCCE49"
+            android:text="debit credit"
+            tools:layout_editor_absoluteY="16dp"
+            tools:layout_editor_absoluteX="98dp" />
+
+        <Button
+            android:id="@+id/btnOnlineBanking"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FCCE49"
+            android:text="online banking"
+            tools:layout_editor_absoluteY="16dp"
+            tools:layout_editor_absoluteX="182dp" />
+
+        <Button
+            android:id="@+id/btnEWallet"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="#FCCE49"
+            android:text="e wallet"
+            tools:layout_editor_absoluteX="265dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+    </android.support.constraint.ConstraintLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
