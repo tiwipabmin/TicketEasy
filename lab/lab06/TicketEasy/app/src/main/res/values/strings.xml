@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">TicketEasy</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <array name="cinema">
+        <item>Seacon</item>
+        <item>Siam</item>
+    </array>
 </resources>
