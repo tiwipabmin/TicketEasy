@@ -17,7 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".Main2Activity" />
-        <activity android:name=".SeatSelectionActivity"></activity>
+        <activity android:name=".SeatSelectionActivity" />
+        <activity android:name=".BillActivity" />
+        <activity android:name=".FinishActivity"></activity>
     </application>
 
 </manifest>
