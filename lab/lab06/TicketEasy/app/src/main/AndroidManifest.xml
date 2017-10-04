@@ -18,12 +18,9 @@
         </activity>
         <activity android:name=".Main2Activity" />
         <activity android:name=".SeatSelectionActivity" />
-<<<<<<< HEAD
         <activity android:name=".BillActivity" />
         <activity android:name=".FinishActivity"></activity>
-=======
         <activity android:name=".MainActivity"></activity>
->>>>>>> 6b68e79ed5854f76016788cb30ffa0c86bb8be06
     </application>
 
 </manifest>
