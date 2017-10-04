@@ -12,6 +12,7 @@ import android.widget.ImageView;
 
 import kmitl.temporary.ticketeasy.Main2Activity;
 import kmitl.temporary.ticketeasy.R;
+import kmitl.temporary.ticketeasy.SeatSelectionActivity;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -53,7 +54,7 @@ public class MovieFragment extends Fragment {
         btn_time1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                intent = new Intent(getActivity(), Main2Activity.class);
+                intent = new Intent(getActivity(), SeatSelectionActivity.class);
                 intent.putExtra("time", btn_time1.getText().toString());
                 startActivity(intent);
             }
@@ -62,7 +63,7 @@ public class MovieFragment extends Fragment {
         btn_time2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                intent = new Intent(getActivity(), Main2Activity.class);
+                intent = new Intent(getActivity(), SeatSelectionActivity.class);
                 intent.putExtra("time", btn_time2.getText().toString());
                 startActivity(intent);
             }
@@ -71,7 +72,7 @@ public class MovieFragment extends Fragment {
         btn_time3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                intent = new Intent(getActivity(), Main2Activity.class);
+                intent = new Intent(getActivity(), SeatSelectionActivity.class);
                 intent.putExtra("time", btn_time3.getText().toString());
                 startActivity(intent);
             }
@@ -80,7 +81,7 @@ public class MovieFragment extends Fragment {
         btn_time4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                intent = new Intent(getActivity(), Main2Activity.class);
+                intent = new Intent(getActivity(), SeatSelectionActivity.class);
                 intent.putExtra("time", btn_time4.getText().toString());
                 startActivity(intent);
             }
@@ -89,7 +90,7 @@ public class MovieFragment extends Fragment {
         btn_time5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                intent = new Intent(getActivity(), Main2Activity.class);
+                intent = new Intent(getActivity(), SeatSelectionActivity.class);
                 intent.putExtra("time", btn_time5.getText().toString());
                 startActivity(intent);
             }
