@@ -80,9 +80,13 @@ public class SeatSelectionActivity extends AppCompatActivity {
             }
         }
         intent = new Intent(SeatSelectionActivity.this, BillActivity.class);
+        intent.putExtra("movie", intent_main.getStringExtra("movie"));
+        intent.putExtra("cinema", intent_main.getStringExtra("cinema"));
+
         intent.putExtra("seat", listSelect);
         intent.putExtra("time", time);
         startActivity(intent);
+
 
     }
     public void setButton(){
