@@ -16,7 +16,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Main2Activity" />
         <activity android:name=".SeatSelectionActivity" />
         <activity android:name=".BillActivity" />
         <activity android:name=".FinishActivity"></activity>

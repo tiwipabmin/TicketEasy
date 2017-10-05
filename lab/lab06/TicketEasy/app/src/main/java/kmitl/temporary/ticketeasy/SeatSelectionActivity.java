@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -17,8 +18,10 @@ public class SeatSelectionActivity extends AppCompatActivity {
     private ArrayList<Button> listSeat;
     private ArrayList<Integer> listStatus;
     private ArrayList<Integer> listSelect;
-    private Intent intent;
+    private Intent intent, intent_main;
     private String time;
+    private TextView tv_movie, tv_cinema;
+    private ImageView iv_movie;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,9 +30,11 @@ public class SeatSelectionActivity extends AppCompatActivity {
         listSeat = new ArrayList<Button>();
         listStatus = new ArrayList<Integer>();
         listSelect = new ArrayList<Integer>();
+        bindWidget();
         setButton();
         setTime();
 
+        intent_main = getIntent();
 
         for(int x=0; x<listSeat.size();x++){
             listStatus.add(0);
@@ -42,8 +47,21 @@ public class SeatSelectionActivity extends AppCompatActivity {
             });
         }
 
+        tv_movie.setText(intent_main.getStringExtra("movie"));
+        tv_cinema.setText(intent_main.getStringExtra("cinema"));
+
+        iv_movie.setImageResource(intent_main.getIntExtra("image", R.drawable.android));
 
     }
+
+    private void bindWidget(){
+
+        tv_movie = (TextView) findViewById(R.id.textNameMovie);
+        tv_cinema = (TextView) findViewById(R.id.textView15);
+
+        iv_movie = (ImageView) findViewById(R.id.imageMovie);
+    }
+
     public void onSelect(int position){
         if(listStatus.get(position) == 0){
             listSeat.get(position).setBackgroundResource(R.drawable.seat_selected);
