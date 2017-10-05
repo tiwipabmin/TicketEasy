@@ -105,7 +105,7 @@
             android:layout_marginRight="16dp" />
 
         <TextView
-            android:id="@+id/textView7"
+            android:id="@+id/seat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="12dp"
@@ -152,7 +152,7 @@
         android:layout_marginStart="14dp"
         tools:layout_constraintLeft_creator="1"
         android:layout_marginBottom="8dp"
-        app:layout_constraintLeft_toRightOf="@+id/textView5"
+        app:layout_constraintLeft_toRightOf="@+id/price"
         android:layout_marginLeft="14dp" />
 
     <TextView
@@ -171,7 +171,7 @@
         android:layout_marginLeft="83dp" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/price"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="7,000"
